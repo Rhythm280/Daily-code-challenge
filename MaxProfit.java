@@ -5,6 +5,7 @@ public class MaxProfit {
         int result = solution.maxProfit(prices);
         System.out.println(result);
     }
+    
     public int maxProfit(int[] prices) {
         int minPrice = prices[0];
         int maxProfit = 0;
